@@ -47,3 +47,12 @@ Because the administrator record is typically the first entry fetched (`ID: 1`),
 ## Results & Verification
 Upon forwarding the modified packet, the server responded with a session token. The application home panel updated, demonstrating a successful privilege escalation and complete authentication bypass as user: `admin@juice-sh.op`.
 
+## Results & Verification
+Upon forwarding the modified packet, the server responded with a session token. The application home panel updated, demonstrating a successful privilege escalation and complete authentication bypass as user: `admin@juice-sh.op`.
+
+### Evidence of Exploitation
+**1. Intercepted SQL Injection Payload in Burp Suite:**
+![Burp Suite Capture](Vulnerability_Lab_1.png)
+
+**2. Successful Authentication Bypass as Administrator:**
+![Admin Dashboard Access](Vulnerability_Lab_2.png)
